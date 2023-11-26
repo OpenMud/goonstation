@@ -2473,7 +2473,8 @@ datum
 					holder.remove_reagent("werewolf_serum",created_volume + 1)
 				return
 
-		 vampire_serum
+		//Going to classif the preceding space (before vampire_serum, was removed in new version) an error, because two spaces causes a compile error.
+		vampire_serum
 		 	name = "Vampire Serum Omega"
 		 	id = "vampire_serum"
 		 	result =  "vampire_serum"

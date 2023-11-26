@@ -126,7 +126,7 @@
 			if("No")
 				for(var/obj/screen/screenoverlay/F in overlist)
 					usr.client.screen -= F
-			 return
+			return
 
 	return
 
