@@ -102,7 +102,8 @@
 				. += "No linkable machinery found.<BR>"
 
 			else
-				for (src.our_machinery in src.machinerylist)
+				for (var/obj/M in src.machinerylist)
+					src.our_machinery = M
 					. += "<A href='byond://?src=\ref[src];op=control;machinery=\ref[src.our_machinery]'>[src.our_machinery] at [get_area(src.our_machinery)]</A><BR>"
 
 			. += "<BR><A href='byond://?src=\ref[src];op=scanmachinery'>Scan for linkable machinery</A><BR>"
