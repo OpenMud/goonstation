@@ -104,7 +104,10 @@ proc
 			flatY2=flat.Height()
 
 			// Dimensions of overlay being added
-			addX1;addX2;addY1;addY2
+			addX1
+			addX2
+			addY1
+			addY2
 
 		for(var/I in layers)
 
