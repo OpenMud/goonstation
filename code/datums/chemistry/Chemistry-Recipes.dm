@@ -2475,14 +2475,12 @@ datum
 
 		//Going to classif the preceding space (before vampire_serum, was removed in new version) an error, because two spaces causes a compile error.
 		vampire_serum
-		 	name = "Vampire Serum Omega"
-		 	id = "vampire_serum"
-		 	result =  "vampire_serum"
-		 	required_reagents = list("bloodc" = 1, "water_holy" = 1, "werewolf_serum" = 1)
-		 	result_amount = 3
-		 	mix_phrase = "The substance gives off a coppery stink."
-
-			//Super hairgrownium + Tongue of dog + Stable mutagen + Grog + Glowing Slurry + Aconitum
+			name = "Vampire Serum Omega"
+			id = "vampire_serum"
+			result =  "vampire_serum"
+			required_reagents = list("bloodc" = 1, "water_holy" = 1, "werewolf_serum" = 1)
+			result_amount = 3
+			mix_phrase = "The substance gives off a coppery stink."
 
 		colors
 			name = "colorful reagent"

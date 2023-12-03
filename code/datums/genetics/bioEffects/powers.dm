@@ -650,10 +650,6 @@
 					throw_repeat--
 					step_away(V,get_turf(owner),throw_speed)
 
-			if(owner.bioHolder.HasEffect("toxic_farts"))
-			 	for(var/turf/T in view(get_turf(owner),2))
-			 		new /obj/effects/fart_cloud(owner,owner)
-
 			SF.farting = 0
 			if (gib_user)
 				owner.gib()
